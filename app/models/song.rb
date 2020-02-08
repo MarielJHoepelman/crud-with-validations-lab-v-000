@@ -1,4 +1,5 @@
 class Song < ApplicationRecord
+<<<<<<< HEAD
   validates :title, :artist_name, presence: true
   validates :title, uniqueness: { scope: [:release_year, :artist_name] }
 
@@ -9,4 +10,11 @@ class Song < ApplicationRecord
   def released_valid?
     released
   end
+=======
+  # validates :title, presence: true
+  # validates :uniqueness {}
+  # 
+  # validates :artist_name, presence: true 
+  
+>>>>>>> 0baeb913e284a6f2ea30227ffc332917ce9c94e4
 end

@@ -6,6 +6,7 @@ class SongsController < ApplicationController
   end
 
   def show
+<<<<<<< HEAD
 
   end
 
@@ -52,4 +53,7 @@ class SongsController < ApplicationController
   def post_params
    params.require(:song).permit(:title, :released, :release_year, :artist_name, :genre)
   end
+=======
+  end 
+>>>>>>> 0baeb913e284a6f2ea30227ffc332917ce9c94e4
 end
